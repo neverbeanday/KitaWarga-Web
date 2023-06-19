@@ -1,0 +1,147 @@
+.dashboard-kita-warga-layout-detail-data-user-wrapper {
+  background-color: #ffffff;
+
+  .dashboard-kita-warga-layout-detail-data-user-breadcrumb {
+    padding: 13px;
+  }
+
+  .ant-divider {
+    margin: 0;
+  }
+
+  .dashboard-kita-warga-layout-detail-data-user {
+    padding: 34px 32px;
+    background-color: #ffffff;
+
+    .dashboard-kita-warga-layout-detail-data-user-content {
+      background-color: #ffffff;
+      margin-top: 40px;
+
+      .dashboard-kita-warga-layout-detail-data-user-content-button-add {
+        width: 145px;
+        height: 50px;
+        padding: 4px 16px;
+        border-radius: unset;
+        box-shadow: unset;
+        background: #3B79B7;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 28px;
+
+        // span {
+        //   display: block;
+
+        //   &:first-child {
+        //     margin-inline-end: 2px;
+        //   }
+        // }
+      }
+
+      .dashboard-kita-warga-layout-detail-data-user-content-table {
+        border: 1px solid #D9D9D9;
+        padding: 14px;
+
+        .ant-spin-container {
+          .ant-table {
+            table {
+              thead {
+                tr {
+                  th {
+                    background-color: #ffffff;
+
+                    padding: 5px 8px 11px;
+                    border-bottom: 1px solid #D9D9D9;
+
+                    &::before {
+                      width: 2px;
+                      height: 24px;
+                      top: 45%;
+                      background-color: #D9D9D9;
+                    }
+
+                    &.ant-table-cell {
+                      font-family: "Segoe UI", sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 24px;
+                      letter-spacing: 0px;
+                      text-align: left;
+                    }
+
+                    .ant-table-column-sorters {
+                      .ant-table-column-title {
+                        font-family: "Segoe UI", sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                      }
+
+                      .ant-table-column-sorter {
+                        margin-left: 20px;
+                      }
+                    }
+
+                    .ant-table-filter-column {
+                      .ant-table-column-title {
+                        font-family: "Segoe UI", sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                      }
+
+                      .ant-table-filter-trigger {
+                        margin: 0;
+                        margin-left: 20px;
+                      }
+                    }
+                  }
+                }
+              }
+
+              tbody {
+                tr {
+                  td {
+                    padding: 8px 0;
+                    border-bottom: 1px solid #D9D9D9;
+
+                    .ant-typography {
+                      padding: 9px 8px;
+                      font-family: "Segoe UI", sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 24px;
+                      letter-spacing: 0px;
+                      text-align: left;
+                    }
+
+                    .table-actions {
+                      display: flex;
+                      flex-direction: row;
+                      align-items: center;
+
+                      .ant-btn {
+                        margin-right: 10px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

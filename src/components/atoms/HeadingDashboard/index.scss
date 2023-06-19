@@ -1,0 +1,26 @@
+.heading-dashboard-wrapper {
+  h1 {
+      font-family: "Lato",sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 44px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #333333;
+      margin: 0;
+  }
+  p {
+      font-family: "Lato",sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #666666;
+  }
+  .ant-divider {
+      background-color: #CFCDCC;
+      margin: 32px 0;
+      border-block-start: 1px solid #CFCDCC
+  }
+}

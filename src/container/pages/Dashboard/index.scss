@@ -1,0 +1,105 @@
+.dashboard-kita-warga {
+  .dashboard-kita-warga-header {
+    height: 68px;
+    background: #001533;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    h2.ant-typography {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      font-weight: 700;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #f2b300;
+    }
+  }
+
+  .dashboard-kita-warga-layout {
+    min-height: 100vh;
+
+    .ant-layout-sider {
+      &.dashboard-kita-warga-sider {
+        overflow: auto;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin-top: 68px;
+        width: 283px !important;
+        max-width: 100% !important;
+        background-color: #EFEFEF;
+        transition: unset;
+
+        .dashboard-kita-warga-sider-trigger {
+          width: 64px;
+          height: 64px;
+          border: unset;
+          box-shadow: unset;
+          padding: 0 32px;
+          color: unset;
+          background-color: unset;
+          .ant-btn-icon {
+            .anticon {
+              font-size: 20px;
+            }
+          }
+        }
+
+        .ant-layout-sider-children {
+          .dashboard-kita-warga-sider-menu {
+            background-color: #EFEFEF;
+            border: unset;
+
+            li {
+              transition: none;
+              font-family: "Segoe UI", sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: 0px;
+              text-align: left;
+              padding: 8px 8px 8px 28px;
+              color: #333333;
+
+              a {
+                transition: none;
+              }
+
+              span {
+                transition: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .ant-layout-sider {
+      &.dashboard-kita-warga-sider {
+        &.ant-layout-sider-collapsed {
+          max-width: 80px !important;
+        }
+      }
+    }
+
+    .dashboard-kita-warga-layout-content {
+      background-color: #ffffff;
+      margin-top: 68px;
+      margin-left: 283px;
+      // transition: width 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
+      // transition: all 0.2s, background 0s;
+    }
+
+    .dashboard-kita-warga-layout-content {
+      &.collapsed-content {
+        margin-left: 80px;
+      }
+    }
+  }
+}
